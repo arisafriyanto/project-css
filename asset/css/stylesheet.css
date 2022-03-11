@@ -177,7 +177,7 @@ header .header-logo {
 }
 
 .btn-view {
-  background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+  background: -webkit-linear-gradient(0deg, #3397f1 0%, #4be2eb 100%);
   transition: all 0.3s;
 }
 
@@ -251,7 +251,7 @@ header .header-logo {
 
 .icon-contact {
   font-size: 30px;
-  color: #999fe4;
+  color: #4be2eb;
   float: left;
   padding: 0 22px 25px 0;
 }
@@ -350,6 +350,37 @@ footer {
 .footer-widget .copy {
   margin-top: 20px;
 }
+
+.text-white {
+  color: #fff;
+}
+
+.banner {
+  height: 340px;
+  width: 100%;
+  background: -webkit-linear-gradient(0deg, #3397f1 0%, #4be2eb 100%);
+}
+
+.about-content {
+  margin-top: 155px;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.link-nav {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.link-nav i {
+  margin: 0 10px;
+  font-size: 14px;
+}
+
 /* micro clearfix */
 
 .cf:before,
