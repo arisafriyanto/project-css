@@ -1,0 +1,151 @@
+/* untuk tablet */
+
+@media all and (max-width: 1000px) {
+  .home-top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .home-about-left .profile {
+    width: 320px;
+  }
+
+  .home-about-right {
+    padding: 0;
+  }
+
+  .section-title-sidebar h6 {
+    margin-bottom: 20px;
+  }
+
+  .section-title-sidebar h1 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+  .section-title {
+    padding-bottom: 50px;
+  }
+
+  .section-title h6 {
+    margin-bottom: 5px;
+  }
+
+  .section-title h1 {
+    font-size: 28px;
+    margin: 10px 0 18px 0;
+  }
+
+  .home-gallery-image {
+    width: 45%;
+  }
+
+  .home-contact-address-wrap {
+    width: 100%;
+  }
+
+  .home-contact-form {
+    margin-top: 20px;
+    width: 100%;
+  }
+}
+
+/* untuk smartphone */
+
+@media all and (max-width: 670px) {
+  .home-top-wrapper {
+    text-align: left;
+  }
+
+  .home-top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .home-top-wrapper p {
+    font-size: 14px;
+    margin-bottom: 0;
+    line-height: 20px;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .btn-wrapper {
+    text-align: center;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .btn-wrapper p {
+    margin: 10px 0;
+  }
+
+  .btn-facebook {
+    margin-bottom: 10px;
+  }
+
+  .home-about-left {
+    width: 100%;
+  }
+
+  .home-about-left .profile {
+    width: 280px;
+  }
+
+  .home-about-right {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .btn-view {
+    text-align: center;
+  }
+
+  .home-gallery-image {
+    width: 95%;
+  }
+
+  .home-contact-address-wrap {
+    width: 100%;
+  }
+
+  .home-contact-form {
+    margin-top: 35px;
+    width: 100%;
+  }
+
+  .col-md-6 {
+    width: 100%;
+  }
+
+  .footer-widget {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-widget .footer-logo {
+    width: 100px;
+    margin-bottom: 0;
+  }
+
+  .footer-widget p {
+    display: none;
+  }
+
+  .footer-widget .copy {
+    display: block;
+  }
+
+  .footer-widget ul {
+    display: none;
+  }
+
+  .footer-widget li a {
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+}
